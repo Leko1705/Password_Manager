@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".ContentActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contentList"
+        android:layout_width="284dp"
+        android:layout_height="656dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/zero_count"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="--no Account saved--"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contentList"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/to_settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_settings"
+            android:onClick="openSettings"
+            android:scaleType="fitXY"
+            android:textStyle="bold"
+            tools:ignore="UsingOnClickInXml"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="655dp" />
+
+        <ImageButton
+            android:id="@+id/rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_baseline_star_rate"
+            android:scaleType="fitXY"
+            android:textStyle="bold"
+            tools:ignore="UnknownId"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="659dp" />
+
+        <ImageButton
+            android:id="@+id/share_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_baseline_share"
+            android:scaleType="fitXY"
+            android:textStyle="bold"
+            tools:ignore="UnknownId"
+            tools:layout_editor_absoluteX="235dp"
+            tools:layout_editor_absoluteY="659dp" />
+
+        <Button
+            android:id="@+id/share_token"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/field_always_purple"
+            android:text="share token"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/ic_add_button"
+            android:onClick="addInformation"
+            android:scaleType="fitXY"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="334dp"
+            tools:layout_editor_absoluteY="659dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

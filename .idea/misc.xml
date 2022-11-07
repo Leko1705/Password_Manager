@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/add_button_2.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/add_button_on.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/button.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/field_always_purple.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/field_always_red.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/ic_add_button_2.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/input_shape_always_purple.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/input_shape_button.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/input_shape_button_clicked.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable-v24/round_corners_around.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/add_button_drawable.xml" value="0.2015" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/add_button_off.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/addig_field.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/background_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/custom_add_button_pressed.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/custom_progress_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/custom_progress_bg_red.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_add_button.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_lock.xml" value="0.1965" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_eye.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_info_wrong_input.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2015" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/input_field.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/input_field_adding.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/input_field_filled.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/input_shape.xml" value="0.2015" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/input_shape_filled.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/lock_symbol.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/drawable/round_corners.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-v23/rate_ask.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w1240dp/activity_change_password.xml" value="0.13119143239625167" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.13119143239625167" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w1240dp/list_row_send.xml" value="0.25" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout-w936dp/activity_login.xml" value="0.153125" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_adding.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_content.xml" value="0.25" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_content_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_help.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_send.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_sign_up.xml" value="0.22" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verification2.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verification_enter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verify.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verify1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/activity_verifyer.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/list_row.xml" value="0.33" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/rate_ask.xml" value="0.33" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/send_row.xml" value="0.203125" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/layout/settings_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/mipmap-anydpi-v26/logog_google.xml" value="0.1" />
+        <entry key="..\:/Users/Lenna/AndroidStudioProjects/PasswordManager/app/src/main/res/xml/root_preferences.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

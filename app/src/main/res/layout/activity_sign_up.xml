@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:id="@+id/firstPasswdInputTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Password"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/UsernameInput"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="@+id/UsernameInput"
+        app:layout_constraintTop_toBottomOf="@+id/UsernameInput"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <TextView
+        android:id="@+id/firstUsernameInputTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Username"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sign_up_header"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toStartOf="@+id/sign_up_header"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_header"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/sign_up_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Password"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/secondPasswdInputTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstPasswdInput"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <EditText
+        android:id="@+id/firstPasswdInput"
+        android:layout_width="234dp"
+        android:layout_height="68dp"
+        android:background="@drawable/input_field"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstPasswdInputTxt"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <EditText
+        android:id="@+id/UsernameInput"
+        android:layout_width="234dp"
+        android:layout_height="68dp"
+        android:background="@drawable/input_field"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="text"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/firstUsernameInputTxt"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="@+id/firstUsernameInputTxt"
+        app:layout_constraintTop_toBottomOf="@+id/firstUsernameInputTxt"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <EditText
+        android:id="@+id/secondPasswdInput"
+        android:layout_width="231dp"
+        android:layout_height="64dp"
+        android:background="@drawable/input_field"
+        android:cursorVisible="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondPasswdInputTxt"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <Button
+        android:id="@+id/accept_button"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button"
+        android:text="refresh Password"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.427"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondPasswdInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

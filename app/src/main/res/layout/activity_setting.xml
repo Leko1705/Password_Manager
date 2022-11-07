@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".SettingActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="108dp"
+        android:layout_height="95dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_current_hash_type_information"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/sha_256_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:onClick="toSha256"
+            android:text="SHA256"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/sha_512_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/white"
+            android:checked="true"
+            android:onClick="toSha512"
+            android:text="SHA512"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/password_change_button"
+        android:layout_width="249dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:onClick="refreshPassword"
+        android:text="change Password"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_current_passwd"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/show_current_passwd"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="CURRENT PASSWORD HERE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_current_passwd_information"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/show_current_passwd_information"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="current Password:"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_settings_title"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/show_current_hash_type_information"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Hash Type:"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_change_button"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/show_settings_title"
+        android:layout_width="395dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/version_field"
+        android:layout_width="177dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="VERSION HERE"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/licenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Licenses"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/version_field"
+        app:layout_constraintEnd_toStartOf="@+id/version_field"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/version_field"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toEndOf="@+id/version_field"
+        app:layout_constraintTop_toTopOf="@+id/version_field"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <TextView
+        android:id="@+id/show_current_username_information"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:gravity="center_horizontal"
+        android:text="username: "
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.112" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

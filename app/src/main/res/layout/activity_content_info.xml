@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".ContentInfoActivity">
+
+    <TextView
+        android:id="@+id/pwd_info_title"
+        android:layout_width="290dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="Login Information"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <TextView
+        android:id="@+id/appname_pwd_info"
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical"
+        android:text="Appname/Website:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.282"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwd_info_title"
+        app:layout_constraintVertical_bias="0.083" />
+
+    <TextView
+        android:id="@+id/username_pwd_info"
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical"
+        android:text="Username/Email:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/appname_pwd_info"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/appname_pwd_info"
+        app:layout_constraintTop_toBottomOf="@+id/appname_pwd_info"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/password_pwd_info"
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:gravity="center_vertical"
+        android:text="Password:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/username_pwd_info"
+        app:layout_constraintStart_toStartOf="@+id/username_pwd_info"
+        app:layout_constraintTop_toBottomOf="@+id/username_pwd_info"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/pwd_info_copy"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:background="@drawable/field_always_purple"
+        android:text="copy"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password_pwd_info"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_pwd_info"
+        app:layout_constraintTop_toBottomOf="@+id/password_pwd_info"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <Button
+        android:id="@+id/pwd_info_send"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:background="@drawable/field_always_purple"
+        android:text="send"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/password_pwd_info"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password_pwd_info"
+        app:layout_constraintTop_toBottomOf="@+id/pwd_info_copy"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <ImageView
+        android:id="@+id/logo_view"
+        android:layout_width="124dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.754"
+        app:layout_constraintStart_toStartOf="@+id/password_pwd_info"
+        app:layout_constraintTop_toBottomOf="@+id/password_pwd_info"
+        app:layout_constraintVertical_bias="0.063"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_strength"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="318dp"
+        android:layout_height="33dp"
+        android:max="100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progress_text_safety"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/progress_text_safety"
+        android:layout_width="345dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="108dp"
+        android:gravity="center_vertical"
+        android:text="Password strength: -"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.327" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
